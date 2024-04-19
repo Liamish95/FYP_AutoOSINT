@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "AutoOSINT",
+    "version": "1.0",
+    "description": "Search IP addresses/file hashes on VirusTotal and IP addresses on AbuseIPDB and display results.",
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "storage",
+      "webRequest"
+    ],
+    
+    "host_permissions": [
+      "https://www.developer.chrome.com/*",
+      "https://api.abuseipdb.com/*"
+    ],
+    
+    "action": {
+      "default_popup": "index.html"
+    },
+    "icons": {
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+  }
+  
+ }
+
+
+  
